@@ -176,12 +176,18 @@ body {
 
 }
 @media (max-width: 600px){
-    .atores{
+.atores p{
+  margin: 5px;
+}
+    .atores img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 20px;
-    padding: 10px;
+}
+    .trailer iframe{
+   text-align: left; 
+   margin: 5px;
+   width:450px;
 }
 
 }
@@ -191,13 +197,19 @@ body {
     display: grid;
     grid-template-columns: auto auto;
 }
-    .atores{
+    .atores.img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 20px;
     padding: 10px;
   }
+
+    .trailer iframe{
+   text-align: left; 
+   margin: 5px;
+   width:450px;
+}
 }
 
 
@@ -210,9 +222,30 @@ body {
     margin: 20px;
     padding: 10px;
   }
-  .trailer{
+    .trailer iframe{
    text-align: left; 
    margin: 5px;
+   width:350px;
+}
+  .card{
+    display: grid;
+    grid-template-columns: 170px 170px;
+}
+}
+
+
+@media (max-width: 360px){
+    .atores{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+  }
+    .trailer iframe{
+   text-align: left; 
+   margin: 5px;
+   width:300px;
 }
   .card{
     display: grid;
