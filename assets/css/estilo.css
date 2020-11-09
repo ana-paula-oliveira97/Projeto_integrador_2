@@ -134,11 +134,6 @@ body {
   font-size: 15px;
 }
 
-.twitter-tweet {
-  text-align: center;
-  margin: 20px;
-}
-
 .noticia h1 {
   margin: 10px;
 }
@@ -151,6 +146,12 @@ body {
   width: 95%;
   height: 300px;
   margin: 10px;
+}
+
+.noticia-netflix {
+  display: block;
+  text-align: center;
+  margin: 20px;
 }
 
 @media (max-width: 700px) {
@@ -179,7 +180,11 @@ body {
   .trailer iframe {
     text-align: left;
     margin: 5px;
-    width: 450px;
+    width: 440px;
+  }
+  .noticia-netflix {
+    display: block;
+    width: 350px;
   }
 }
 
@@ -198,6 +203,10 @@ body {
   .trailer iframe {
     text-align: left;
     margin: 5px;
+    width: 450px;
+  }
+  .noticia-netflix {
+    display: block;
     width: 450px;
   }
 }
@@ -219,6 +228,15 @@ body {
     display: grid;
     grid-template-columns: 170px 170px;
   }
+  .noticia-netflix {
+    display: block;
+    width: 350px;
+  }
+  .banner-noticia {
+    width: 93%;
+    height: 300px;
+    margin: 10px;
+  }
 }
 
 @media (max-width: 360px) {
@@ -237,5 +255,14 @@ body {
   .card {
     display: grid;
     grid-template-columns: 170px 170px;
+  }
+  .noticia-netflix {
+    display: block;
+    width: 230px;
+  }
+  .banner-noticia {
+    width: 93%;
+    height: 300px;
+    margin: 10px;
   }
 }
