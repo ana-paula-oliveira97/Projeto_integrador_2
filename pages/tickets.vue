@@ -1,42 +1,62 @@
 <template>
-<form id="formExemplo" data-toggle="validator" role="form">	
-  <div class="form">
-    <div class="navegacao">
-      <p>
-        <NuxtLink class="navegacao" to="/">Início</NuxtLink> > Reserve seu lugar
-      </p>
-    </div>
-  <div class="form">
-      <label for="validationCustom01">Nome:</label>
-      <input type="text" class="form-control" id="validationCustom01" required>
-        </div>
-    <div class="form">
-      <label for="validationCustom02">Quantidade de Pessoas:</label>
-      <input type="text" class="form-control" id="validationCustom02" required>
-       </div>
-    <div class="form">
-   <select class="custom-select">
-  <option selected>Selecione um Filme:</option>
-  <option value="1">Escolhida</option>
-  <option value="2">Morte Súbita 2</option>
-  <option value="3">A Gangue: Uma noite de sangue</option>
-  <option value="4">Sangue Pelicano</option>
-</select>
-      </div>
-  <div class="form">
-    <b-form-group id="input-group-4" label="Deseja assitir em 3D:" label-for="input-4">
-      <b-form-checkbox-group v-model="form.checked" id="checkboxes-4">
-        
-      </b-form-checkbox-group>
-      <label>	        
-        <input type="checkbox" data-error="Você deve marcar este campo!" required> Sim</label>
-        <input type="checkbox" data-error="Você deve marcar este campo!" required><label> Não </label>
+  <div class="navegacao">
+    <p><NuxtLink to="/">Início</NuxtLink> > Reserve seu lugar</p>
 
-    </b-form-group>
+    <div class="form">
+      <h2>Formulário de reserva de lugares.</h2>
+      <b-form @submit="onSubmit" @reset="onReset" v-if="show">
+        <b-form-group
+          id="input-group-1"
+          label="Digite seu E-mail:*"
+          label-for="input-1"
+          description="Nunca compartilhe seu e-mail com ninguem!"
+        >
+          <b-form-input
+            id="input-1"
+            v-model="form.email"
+            type="email"
+            required
+            placeholder="Enter email"
+          ></b-form-input>
+        </b-form-group>
+
+        <b-form-group
+          id="input-group-2"
+          label="Digite seu nome:"
+          label-for="input-2"
+        >
+          <b-form-input
+            id="input-2"
+            v-model="form.name"
+            required
+            placeholder="Enter name"
+          ></b-form-input>
+        </b-form-group>
+
+        <b-form-group
+          id="input-group-3"
+          label="Qual Filme gostaria de ver:"
+          label-for="input-3"
+        >
+          <b-form-select
+            id="input-3"
+            v-model="form.food"
+            :options="filmes"
+            required
+          ></b-form-select>
+        </b-form-group>
+
+        <b-form-group id="input-group-4">
+          <b-form-checkbox-group v-model="form.checked" id="checkboxes-4">
+            <!-- <b-form-checkbox value="me">Confirmar reserva</b-form-checkbox>-->
+          </b-form-checkbox-group>
+        </b-form-group>
+
+        <b-button type="submit" variant="primary">Enviar</b-button>
+        <b-button type="reset" variant="danger">Cancelar</b-button>
+      </b-form>
     </div>
-    <b-button type="submit" variant="primary">Enviar</b-button>
   </div>
-</form>
 </template>
 
 <script>
@@ -44,13 +64,13 @@ export default {
   data() {
     return {
       form: {
+        email: "",
         name: "",
-        name: "",
-        food: null,
+        filmes: null,
         checked: [],
       },
-      foods: [
-        { text: "Selecione", value: null },
+      filmes: [
+        { text: "Selecione um filme.", value: null },
         "Escolhida",
         "Morte Súbita 2",
         "A Gangue: Uma noite de sangue",
@@ -62,7 +82,7 @@ export default {
   methods: {
     onSubmit(evt) {
       evt.preventDefault();
-      alert(JSON.stringify(this.form));
+      alert("Pedido feito com sucesso");
     },
     onReset(evt) {
       evt.preventDefault();
@@ -80,8 +100,3 @@ export default {
   },
 };
 </script>
-<<<<<<< HEAD
-
-
-=======
->>>>>>> parent of 2c0040c4... tickets.vue
