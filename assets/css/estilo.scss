@@ -15,7 +15,7 @@ body {
 
 .map{
   display: flex;
-  justify-content: right;
+  justify-content: left;
   margin: 20px;
 }
 
@@ -29,7 +29,10 @@ body {
 }
 
 .banner-sobre{
-  height: 300px;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
 
 }
 
@@ -163,6 +166,42 @@ body {
   margin: 20px;
 }
 
+.conterner{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+}
+
+
+@media (max-width: 850px){
+    .atores{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+  }
+
+  .conterner{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+}
+.filme1{
+  width: 400px;
+}
+.filme2{
+  width: 400px;
+}
+
+.filme3{
+  width: 400px;
+}
+
+.filme4{
+  width: 400px;
+}
+}
 
 
 @media (max-width: 700px){
@@ -173,14 +212,35 @@ body {
     margin: 20px;
     padding: 10px;
   }
-    .card{
-    display: grid;
-    grid-template-columns: 300px 300px;
 
+    .conterner{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+.filme1{
+  margin: 8px;
+  width: 320px;
+}
+.filme2{
+  margin: 8px;
+  width: 320px;
+}
+
+.filme3{
+  margin: 8px;
+  width: 320px;
+}
+
+.filme4{
+  margin: 8px;
+  width: 320px;
 }
 
 }
 @media (max-width: 600px){
+
 .atores p{
   margin: 5px;
 }
@@ -199,13 +259,35 @@ body {
   width: 350px;
 }
 
+.conterner{
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: center;
+
+}
+.filme1{
+ text-align: center;
+  margin: 20px;
+  width: 350px;
+}
+.filme2{
+  margin: 20px;
+  width: 350px;
+}
+
+.filme3{
+  margin: 20px;
+  width: 350px;
+}
+
+.filme4{
+  margin: 20px;
+  width: 350px;
+}
+
 }
 
 @media (max-width: 500px){
-  .card{
-    display: grid;
-    grid-template-columns: auto auto;
-}
     .atores.img{
     display: flex;
     flex-wrap: wrap;
@@ -222,6 +304,31 @@ body {
 .noticia-netflix{
   display: block;
   width: 450px;
+}
+
+.conterner{
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: center;
+
+}
+.filme1{
+  margin: 50px;
+  width: 350px;
+}
+.filme2{
+  margin: 50px;
+  width: 350px;
+}
+
+.filme3{
+  margin: 50px;
+  width: 350px;
+}
+
+.filme4{
+  margin: 50px;
+  width: 350px;
 }
 }
 
@@ -240,10 +347,7 @@ body {
    margin: 5px;
    width:350px;
 }
-  .card{
-    display: grid;
-    grid-template-columns: 170px 170px;
-}
+
 .noticia-netflix{
   display: block;
   width: 350px;
@@ -252,6 +356,81 @@ body {
   width: 93%;
   height: 300px;
   margin: 10px;
+}
+
+.conterner{
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: center;
+
+}
+.filme1{
+  margin: 50px;
+  width: 350px;
+}
+.filme2{
+  margin: 50px;
+  width: 350px;
+}
+
+.filme3{
+  margin: 50px;
+  width: 350px;
+}
+
+.filme4{
+  margin: 50px;
+  width: 350px;
+}
+}
+
+@media (max-width: 400px){
+    .atores{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+  }
+    .trailer iframe{
+   text-align: left; 
+   margin: 5px;
+   width:350px;
+}
+
+.noticia-netflix{
+  display: block;
+  width: 350px;
+}
+.banner-noticia{
+  width: 93%;
+  height: 300px;
+  margin: 10px;
+}
+
+.conterner{
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: center;
+
+}
+.filme1{
+  margin: 50px;
+  width: 300px;
+}
+.filme2{
+  margin: 50px;
+  width: 300px;
+}
+
+.filme3{
+  margin: 50px;
+  width: 300px;
+}
+
+.filme4{
+  margin: 50px;
+  width: 300px;
 }
 }
 
@@ -269,10 +448,7 @@ body {
    margin: 5px;
    width:300px;
 }
-  .card{
-    display: grid;
-    grid-template-columns: 170px 170px;
-}
+
 .noticia-netflix{
   display: block;
   width: 230px;
@@ -281,5 +457,30 @@ body {
   width: 93%;
   height: 300px;
   margin: 10px;
+}
+
+.conterner{
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: center;
+
+}
+.filme1{
+  margin: 50px;
+  width: 250px;
+}
+.filme2{
+  margin: 50px;
+  width: 250px;
+}
+
+.filme3{
+  margin: 50px;
+  width: 250px;
+}
+
+.filme4{
+  margin: 50px;
+  width: 250px;
 }
 }

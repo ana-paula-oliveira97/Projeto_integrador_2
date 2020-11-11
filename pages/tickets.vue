@@ -52,7 +52,7 @@
           </b-form-checkbox-group>
         </b-form-group>
 
-        <b-button type="submit" variant="primary">Enviar</b-button>
+        <b-button type="submit" variant="success">Enviar</b-button>
         <b-button type="reset" variant="danger">Cancelar</b-button>
       </b-form>
     </div>
@@ -82,7 +82,7 @@ export default {
   methods: {
     onSubmit(evt) {
       evt.preventDefault();
-      alert("Pedido feito com sucesso");
+      alert("Reserva feito com sucesso");
     },
     onReset(evt) {
       evt.preventDefault();
