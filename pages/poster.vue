@@ -41,7 +41,7 @@
               em explosivos agora trabalhando regularmente como segurança em uma
               arena de basquete de última geração. Problemas irromperem quando
               um grupo de terroristas sequestra o dono da equipe e a filha de
-              Jesse durante a noite de estreia
+              Jesse.
             </b-card-text>
             <template v-slot:footer>
               <b-button class="botao" variant="Primary"
@@ -60,9 +60,10 @@
           >
             <b-card-text>
               A Wright Firm tem sinal verde para seu maior empreendimento até
-              hoje: ‘O Projeto Grove Street’. Ao transformar um bairro atingido
-              por crimes e pobreza por anos em um ambiente seguro e limpo, a
-              empresa espera receber apoio e compreensão.
+              hoje: ‘O Projeto Grove Street’.<br />
+              Ao transformar um bairro atingido por crimes e pobreza por anos em
+              um ambiente seguro e limpo, a empresa espera receber apoio e
+              compreensão.
             </b-card-text>
             <template v-slot:footer>
               <b-button class="botao" variant="Primary"
@@ -82,7 +83,8 @@
               Uma mulher que treina cavalos policiais quer mais um filho e então
               adota uma criança, uma menina de 5 anos gravemente traumatizada.
               Quando a menina mostra comportamento violento e antissocial, sua
-              nova mãe fica determinada a ajudá-la.
+              nova mãe fica determinada a ajudá-la.<br />
+              Filme com 2 prêmios e 7 indicações.
             </b-card-text>
             <template v-slot:footer>
               <b-button class="botao" variant="Primary"

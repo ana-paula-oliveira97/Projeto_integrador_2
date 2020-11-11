@@ -78,9 +78,9 @@
           <b-card-text>
             Veronica é uma autora bem sucedida que se encontra presa em dois
             diferentes períodos: Os dias atuais e o Antebellum, a era das
-            plantações no sul. Imersa nesta horrorizante realidade, ela deve
-            descobrir o mistério por trás desse acontecimentos e fugir, antes
-            que seja tarde demais.
+            plantações no sul.<br />
+            Imersa nesta horrorizante realidade, ela deve descobrir o mistério
+            por trás desse acontecimentos e fugir, antes que seja tarde demais.
           </b-card-text>
           <template v-slot:footer>
             <b-button class="botao" variant="Primary"
@@ -125,9 +125,10 @@
         >
           <b-card-text>
             A Wright Firm tem sinal verde para seu maior empreendimento até
-            hoje: ‘O Projeto Grove Street’. Ao transformar um bairro atingido
-            por crimes e pobreza por anos em um ambiente seguro e limpo, a
-            empresa espera receber apoio e compreensão.
+            hoje: ‘O Projeto Grove Street’.<br />
+            Ao transformar um bairro atingido por crimes e pobreza por anos em
+            um ambiente seguro e limpo, a empresa espera receber apoio e
+            compreensão.
           </b-card-text>
           <template v-slot:footer>
             <b-button class="botao" variant="Primary"
@@ -150,7 +151,8 @@
             Uma mulher que treina cavalos policiais quer mais um filho e então
             adota uma criança, uma menina de 5 anos gravemente traumatizada.
             Quando a menina mostra comportamento violento e antissocial, sua
-            nova mãe fica determinada a ajudá-la.
+            nova mãe fica determinada a ajudá-la.<br />
+            Filme premiado com 2 prêmios e 7 indicações.
           </b-card-text>
           <template v-slot:footer>
             <b-button class="botao" variant="Primary"

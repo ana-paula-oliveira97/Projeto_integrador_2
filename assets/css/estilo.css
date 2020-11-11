@@ -14,8 +14,16 @@ body {
 
 .map {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   margin: 20px;
+}
+
+.txt-sobre {
+  margin: 20px;
+}
+
+.tex-sobre {
+  margin: 5px;
 }
 
 .fim-do-rodape {
@@ -159,8 +167,23 @@ body {
 
 .conterner {
   display: grid;
-  grid-template-rows: auto auto;
-  grid-template-columns: auto auto;
+  width: 100%;
+}
+
+.filme1 {
+  width: 330px;
+}
+
+.filme2 {
+  width: 330px;
+}
+
+.filme3 {
+  width: 330px;
+}
+
+.filme4 {
+  width: 330px;
 }
 
 @media (max-width: 850px) {

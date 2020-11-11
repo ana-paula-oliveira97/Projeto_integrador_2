@@ -15,9 +15,19 @@ body {
 
 .map{
   display: flex;
-  justify-content: left;
+  justify-content: center;
   margin: 20px;
 }
+
+.txt-sobre{
+  margin: 20px;
+}
+
+.tex-sobre{
+  margin: 5px;
+}
+
+
 
 .fim-do-rodape{
   text-align: center;
@@ -166,10 +176,23 @@ body {
   margin: 20px;
 }
 
-.conterner{
-    display: grid;
-    grid-template-rows: auto auto;
-    grid-template-columns: auto auto;
+  .conterner{
+  display: grid;
+  width: 100%;
+}
+.filme1{
+  width: 330px;
+}
+.filme2{
+  width: 330px;
+}
+
+.filme3{
+  width: 330px;
+}
+
+.filme4{
+  width: 330px;
 }
 
 
@@ -202,7 +225,6 @@ body {
   width: 400px;
 }
 }
-
 
 @media (max-width: 700px){
     .atores{
@@ -332,8 +354,6 @@ body {
 }
 }
 
-
-
 @media (max-width: 460px){
     .atores{
     display: flex;
@@ -433,7 +453,6 @@ body {
   width: 300px;
 }
 }
-
 
 @media (max-width: 360px){
     .atores{
