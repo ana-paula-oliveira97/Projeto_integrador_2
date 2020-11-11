@@ -10,11 +10,7 @@
     <h1>
       Confirmado pela Netflix Brasil, teremos uma serie de Assassin's Creed.
     </h1>
-    <img
-      class="banner-noticia"
-      src="~/assets/img/231.jpg"
-      alt="imagem do jogo assassin's creed II, jogo de video game desenvolvido pela ubsoft"
-    />
+
     <p>
       No dia 27 de outubro de 2020 a Netflix brasil surpreendeu os fãs com um
       pequeno vídeo de 10 segundos, mostrando o logo da então franquia

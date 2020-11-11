@@ -23,17 +23,17 @@
         </b-card>
 
         <b-card
-          title="Title"
-          img-src="https://picsum.photos/300/300/?image=41"
-          img-alt="Image"
+          title="A Princesa e a Plebeia"
+          img-src="~/assets/img/a princesa e a plebeia.jpg"
+          img-alt="Cartaz da estréia"
           img-top
         >
           <b-card-text>
-            This card has supporting text below as a natural lead-in to
-            additional content.
+            A netflix posta trailer do novo episódio com 2.21ms mostrando como
+            vai ser a continuação do filme.
           </b-card-text>
           <b-button class="btn" variant="Primary"
-            ><NuxtLink to="/">Ver mais </NuxtLink></b-button
+            ><NuxtLink to="/notícia_netflix">Ver mais </NuxtLink></b-button
           >
         </b-card>
       </b-card-group>
