@@ -37,7 +37,7 @@ export default {
 
   //google Analytics configuration (https://google-analytics.nuxtjs.org/setup)
   googleAnalytics: {
-    id: 'UA-XXX-X',
+    id: 'UA-182342593-1',
   },
 
 
