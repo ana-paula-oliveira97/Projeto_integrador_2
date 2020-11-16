@@ -41,6 +41,31 @@ export default {
   },
 
 
+  // i18n configuration (https://i18n.nuxtjs.org/setup)
+  i18n: {
+    lazy: true,
+    langDir: 'lang/',
+    strategy: 'no_prefix',
+    detectBrowserLanguage: {
+      cookieKey: 'i18n-locale',
+    },
+  },
+  locales: [
+    {
+      code: 'en',
+      iso: 'en-US',
+      name: 'English',
+      file: 'en.js',
+    },
+    {
+      code: 'pt',
+      iso: 'pt-BR',
+      name: 'Português',
+      file: 'pt.js',
+    },
+  ],
+
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
 }
+
