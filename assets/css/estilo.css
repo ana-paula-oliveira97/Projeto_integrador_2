@@ -4,6 +4,8 @@ body {
 }
 
 .rodape {
+  position: absolute;
+  width: 100%;
   background-color: black;
   color: white;
 }
@@ -186,6 +188,46 @@ body {
   width: 330px;
 }
 
+@media (max-width: 1500px) {
+  .conterner {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+  }
+  .filme1 {
+    width: 700px;
+  }
+  .filme2 {
+    width: 650px;
+  }
+  .filme3 {
+    width: 650px;
+  }
+  .filme4 {
+    width: 650px;
+  }
+}
+
+@media (max-width: 1350px) {
+  .conterner {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+  }
+  .filme1 {
+    width: 650px;
+  }
+  .filme2 {
+    width: 650px;
+  }
+  .filme3 {
+    width: 650px;
+  }
+  .filme4 {
+    width: 650px;
+  }
+}
+
 @media (max-width: 850px) {
   .atores {
     display: flex;
@@ -269,21 +311,20 @@ body {
     justify-content: center;
   }
   .filme1 {
-    text-align: center;
     margin: 20px;
-    width: 350px;
+    width: 450px;
   }
   .filme2 {
     margin: 20px;
-    width: 350px;
+    width: 450px;
   }
   .filme3 {
     margin: 20px;
-    width: 350px;
+    width: 450px;
   }
   .filme4 {
     margin: 20px;
-    width: 350px;
+    width: 450px;
   }
 }
 
