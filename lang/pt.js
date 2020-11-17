@@ -1,4 +1,15 @@
 export default {
     noticia1: 'A Netflix Brasil posta em seu twitter um vídeo de apenas 10 segundos anunciando a nova série original que entrara futuramente em seu catálogo.',
     noticia2: 'A netflix posta trailer do novo episódio com 2.21ms mostrando como vai ser a continuação do filme.',
+    inicio: 'Início',
+    sobre: 'Sobre',
+    filme: 'Filmes em Cartaz',
+    Blog: 'Blog',
+    form: 'Reserve seu lugar',
+    redes: 'Nossas redes Sociais',
+    endereço: 'Endereço: R. da República, 999-897, Taquaritinga - SP, 15900-000',
+    direitos: 'Todos os direitos reservados',
+    ver: 'Ver mais',
+    reserve: 'Reserve seu lugar',
+    atores: 'Alguns atores e atrizes',
 }

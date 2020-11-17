@@ -15,6 +15,16 @@ export default {
     Header,
     Footer,
   },
+  computed: {
+    availableLocales() {
+      return this.$i18n.locales.filter((l) => l.code !== this.$i18n.locale);
+    },
+  },
+  methods: {
+    setLocale(code) {
+      this.$i18n.setLocale(code);
+    },
+  },
   data() {
     return {
       items: [
@@ -37,4 +47,3 @@ export default {
   },
 };
 </script>
-
