@@ -10,42 +10,42 @@
       <b-card-group deck
         ><div class="filme1">
           <b-card
-            title="Escolhida"
-            img-src="~/assets/img/Escolhida.jpg"
-            img-alt="Capa do Filme Escolhida ,Sinopse: Veronica é uma autora bem sucedida que se encontra presa em dois diferentes períodos: Os dias atuais e o Antebellum, a era das plantações no sul. Imersa nesta horrorizante realidade, ela deve descobrir o mistério por trás desse acontecimentos e fugir, antes que seja tarde demais."
+            title="Convenção das Bruxas"
+            img-src="~/assets/img/bruxas.jpg"
+            img-alt="Capa do Filme Convenção das Bruxas ,Um menino acaba descobrindo uma conferência de bruxas enquanto fica com a avó em um hotel e é transformado em rato pela Grande Bruxa."
             img-top
           >
             <b-card-text>
-              Veronica é uma autora bem sucedida que se encontra presa em dois
-              diferentes períodos: Os dias atuais e o Antebellum, a era das
-              plantações no sul. Imersa nesta horrorizante realidade, ela deve
-              descobrir o mistério por trás desse acontecimentos e fugir, antes
-              que seja tarde demais.
+              Um menino acaba descobrindo uma conferência de bruxas enquanto
+              fica com a avó em um hotel e é transformado em rato pela Grande
+              Bruxa.
             </b-card-text>
             <template v-slot:footer>
               <b-button class="botao" variant="Primary"
-                ><NuxtLink to="/escolhida">Ver mais </NuxtLink></b-button
+                ><NuxtLink to="/the_witches">Ver mais </NuxtLink></b-button
               >
             </template>
           </b-card>
         </div>
         <div class="filme2">
           <b-card
-            title="Morte Súbita 2"
-            img-src="~/assets/img/Morte Súbita 2.jpg"
+            title="Carlinhos e Carlão"
+            img-src="~/assets/img/carlinho e carlao.jpg"
             img-alt="Capa do Filme Morte Súbita 2, Sinopse: Jesse Freeman é um ex-oficial das forças especiais e especialista em explosivos agora trabalhando regularmente como segurança em uma arena de basquete de última geração."
             img-top
           >
             <b-card-text>
-              Jesse Freeman é um ex-oficial das forças especiais e especialista
-              em explosivos agora trabalhando regularmente como segurança em uma
-              arena de basquete de última geração. Problemas irromperem quando
-              um grupo de terroristas sequestra o dono da equipe e a filha de
-              Jesse.
+              Carlão é um homem preconceituoso que trabalha em uma
+              concessionária de carros com Cadinho, Zeca e Antunes. Quando
+              Evaristo é alvo de tais agressões verbais, ele passa a persegui-lo
+              e trancá-lo em um armário mágico. De lá sai Carlinhos , alter-ego
+              homossexual que assume o corpo de Carlão quando chega a noite.
             </b-card-text>
             <template v-slot:footer>
               <b-button class="botao" variant="Primary"
-                ><NuxtLink to="/morte_subita_2">Ver mais </NuxtLink></b-button
+                ><NuxtLink to="/carlinhos_e_carlao"
+                  >Ver mais
+                </NuxtLink></b-button
               >
             </template>
           </b-card>
@@ -53,44 +53,39 @@
 
         <div class="filme3">
           <b-card
-            title="A Gangue: Uma Noite de Sangue"
-            img-src="~/assets/img/A Gangue.jpg"
-            img-alt="Capa do Filme A Gangue: Uma Noite de Sangue, Sinopse: A Wright Firm tem sinal verde para seu maior empreendimento até hoje: ‘O Projeto Grove Street’. Ao transformar um bairro atingido por crimes e pobreza por anos em um ambiente seguro e limpo, a empresa espera receber apoio e compreensão. "
+            title="Tenet"
+            img-src="~/assets/img/tenet.jpg"
+            img-alt="Capa do Filme Tenet: Em um mundo crepuscular da espionagem internacional, um agente da CIA sem nome, conhecido como o protagonista, é recrutado por uma organização misteriosa chamada Tenet para participar de uma missão global que se desdobra além do tempo real. "
             img-top
           >
             <b-card-text>
-              A Wright Firm tem sinal verde para seu maior empreendimento até
-              hoje: ‘O Projeto Grove Street’.<br />
-              Ao transformar um bairro atingido por crimes e pobreza por anos em
-              um ambiente seguro e limpo, a empresa espera receber apoio e
-              compreensão.
+              Armado com apenas uma palavra – Tenet – e lutando pela
+              sobrevivência do mundo inteiro, o Protagonista viaja através de um
+              mundo crepuscular de espionagem internacional em uma missão que
+              irá desenrolar em algo para além do tempo real.
             </b-card-text>
             <template v-slot:footer>
               <b-button class="botao" variant="Primary"
-                ><NuxtLink to="/a_gangue">Ver mais </NuxtLink>
+                ><NuxtLink to="/tenet">Ver mais </NuxtLink>
               </b-button>
             </template>
           </b-card>
         </div>
         <div class="filme4">
           <b-card
-            title="Sangue de Pelicano"
-            img-src="~/assets/img/Sangue de Pelicano.jpg"
-            img-alt="Capa do Filme Sangue de Pelicano, Uma mulher que treina cavalos policiais quer mais um filho e então adota uma criança, uma menina de 5 anos gravemente traumatizada. Quando a menina mostra comportamento violento e antissocial, sua nova mãe fica determinada a ajudá-la. "
+            title="Os novos mutantes"
+            img-src="~/assets/img/os novos mutantes.jpg"
+            img-alt="Capa do Filme Os novos mutantes,Cinco jovens mutantes descobrem o alcance de seus poderes e lidam com traumas do passado enquanto são mantidos presos contra a vontade num sinistro hospital."
             img-top
           >
             <b-card-text>
-              Uma mulher que treina cavalos policiais quer mais um filho e então
-              adota uma criança, uma menina de 5 anos gravemente traumatizada.
-              Quando a menina mostra comportamento violento e antissocial, sua
-              nova mãe fica determinada a ajudá-la.<br />
-              Filme com 2 prêmios e 7 indicações.
+              Cinco jovens mutantes descobrem o alcance de seus poderes e lidam
+              com traumas do passado enquanto são mantidos presos contra a
+              vontade num sinistro hospital.
             </b-card-text>
             <template v-slot:footer>
               <b-button class="botao" variant="Primary"
-                ><NuxtLink to="/sangue_de_pelicano"
-                  >Ver mais
-                </NuxtLink></b-button
+                ><NuxtLink to="/the_new_mutants">Ver mais </NuxtLink></b-button
               >
             </template>
           </b-card>

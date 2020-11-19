@@ -20,7 +20,7 @@
             </b-nav-item>
             <b-nav-item>
               <NuxtLink class="fonte-menu" to="/poster"
-                >Filmes em Cartaz
+                >Proximos filmes
               </NuxtLink></b-nav-item
             >
             <b-nav-item>
