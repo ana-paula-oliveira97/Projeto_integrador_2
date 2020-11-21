@@ -18,7 +18,9 @@
             <b-card-text>
               Um menino acaba descobrindo uma conferência de bruxas enquanto
               fica com a avó em um hotel e é transformado em rato pela Grande
-              Bruxa.
+              Bruxa.<br />
+              remaster do classico filme de 1990.
+              <p>&#32;</p>
             </b-card-text>
             <template v-slot:footer>
               <b-button class="botao" variant="Primary"
@@ -38,6 +40,7 @@
               Depois de trocar de corpo com um assassino em série, a adolescente
               de colegial Millie descobre que tem menos de um dia para reverter
               a situação antes que seja tarde demais.
+              <p>&#32;</p>
             </b-card-text>
             <template v-slot:footer>
               <b-button class="botao" variant="Primary"
@@ -55,10 +58,10 @@
             img-top
           >
             <b-card-text>
-              Armado com apenas uma palavra – Tenet – e lutando pela
-              sobrevivência do mundo inteiro, o Protagonista viaja através de um
-              mundo crepuscular de espionagem internacional em uma missão que
-              irá desenrolar em algo para além do tempo real.
+              Armado com apenas uma palavra 'Tenet' e lutando pela sobrevivência
+              do mundo inteiro, o Protagonista viaja através de um mundo
+              crepuscular de espionagem internacional em uma missão que irá
+              desenrolar em algo para além do tempo real.
             </b-card-text>
             <template v-slot:footer>
               <b-button class="botao" variant="Primary"
@@ -78,6 +81,7 @@
               Cinco jovens mutantes descobrem o alcance de seus poderes e lidam
               com traumas do passado enquanto são mantidos presos contra a
               vontade num sinistro hospital.
+              <p>&#32;</p>
             </b-card-text>
             <template v-slot:footer>
               <b-button class="botao" variant="Primary"
