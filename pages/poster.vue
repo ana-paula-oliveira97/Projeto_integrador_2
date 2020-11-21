@@ -29,23 +29,19 @@
         </div>
         <div class="filme2">
           <b-card
-            title="Carlinhos e Carlão"
-            img-src="~/assets/img/carlinho e carlao.jpg"
-            img-alt="Capa do Filme Morte Súbita 2, Sinopse: Jesse Freeman é um ex-oficial das forças especiais e especialista em explosivos agora trabalhando regularmente como segurança em uma arena de basquete de última geração."
+            title="Freaky"
+            img-src="~/assets/img/Freaky.jpg"
+            alt="Capa do Filme Freaky: Depois de trocar de corpo com um assassino em série, a adolescente de colegial Millie descobre que tem menos de um dia para reverter a situação antes que seja tarde demais."
             img-top
           >
             <b-card-text>
-              Carlão é um homem preconceituoso que trabalha em uma
-              concessionária de carros com Cadinho, Zeca e Antunes. Quando
-              Evaristo é alvo de tais agressões verbais, ele passa a persegui-lo
-              e trancá-lo em um armário mágico. De lá sai Carlinhos , alter-ego
-              homossexual que assume o corpo de Carlão quando chega a noite.
+              Depois de trocar de corpo com um assassino em série, a adolescente
+              de colegial Millie descobre que tem menos de um dia para reverter
+              a situação antes que seja tarde demais.
             </b-card-text>
             <template v-slot:footer>
               <b-button class="botao" variant="Primary"
-                ><NuxtLink to="/carlinhos_e_carlao"
-                  >Ver mais
-                </NuxtLink></b-button
+                ><NuxtLink to="/freaky">Ver mais </NuxtLink></b-button
               >
             </template>
           </b-card>

@@ -25,7 +25,7 @@
       <!-- Slides with custom text -->
       <b-carousel-slide
         class="fonte"
-        text="Na compra de 2 ingresos ganhe um balde de pipoca."
+        text="Na compra de 2 ingressos ganhe um balde de pipoca."
         img-src="~/assets/img/pipoca.jpg"
         img-alt="foto de pipoca "
       >
@@ -40,29 +40,7 @@
         img-alt="foto de uma arvore assustadora  "
       ></b-carousel-slide>
 
-      <!-- Slides with img slot -->
-      <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment
-      <b-carousel-slide>
-        <template v-slot:img>
-          <img
-            class="d-block img-fluid w-100"
-            width="1024"
-            height="480"
-            src="https://picsum.photos/1024/480/?image=55"
-            alt="image slot"
-          />
-        </template>
-      </b-carousel-slide>
 
-
- Slide with blank fluid image to maintain slide aspect ratio 
-      <b-carousel-slide caption="Blank Image" img-blank img-alt="Blank image">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          eros felis, tincidunt a tincidunt eget, convallis vel est. Ut
-          pellentesque ut lacus vel interdum.
-        </p>
-      </b-carousel-slide>-->
     </b-carousel>
     <p></p>
 
