@@ -9,6 +9,16 @@
       Meia entrada: crianças de 03 à 12 anos. Acima de 12, somente com a
       carteirinha escolar na validade.
     </p>
+    <div class="trailer">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/PV_z1x5DckE"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
     <p class="tex-sobre">Como chegar ate o Cinema:</p>
     <div class="map">
       <iframe

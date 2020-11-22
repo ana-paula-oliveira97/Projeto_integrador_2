@@ -39,8 +39,6 @@
         img-src="~/assets/img/halloween arvore.jpg"
         img-alt="foto de uma arvore assustadora  "
       ></b-carousel-slide>
-
-
     </b-carousel>
     <p></p>
 
