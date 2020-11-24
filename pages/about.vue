@@ -9,7 +9,11 @@
       Meia entrada: crianças de 03 à 12 anos. Acima de 12, somente com a
       carteirinha escolar na validade.
     </p>
-    <div class="trailer">
+
+    <p class="txt-sobre">
+      Confira o video com os Filmes em cartaz e como chegar ao Cinema.
+    </p>
+    <div class="video-sobre">
       <iframe
         width="560"
         height="315"
@@ -18,10 +22,9 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
-    </div>
-    <p class="tex-sobre">Como chegar ate o Cinema:</p>
-    <div class="map">
+
       <iframe
+        class="map"
         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14858.39169020325!2d-48.5052161!3d-21.4057308!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcc662afc91651067!2sCinemec%20Taquaritinga!5e0!3m2!1spt-BR!2sbr!4v1602610559177!5m2!1spt-BR!2sbr"
         width="400"
         height="300"

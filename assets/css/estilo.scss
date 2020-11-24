@@ -16,8 +16,7 @@ body {
 }
 
 .map{
-  display: flex;
-  justify-content: center;
+  justify-content: right;
   margin: 20px;
 }
 
@@ -65,7 +64,11 @@ body {
 
 .trailer{
   text-align: center;
+}
 
+.video-sobre{
+  text-align: left;
+  margin: 10px;
 }
 
 .h1{
