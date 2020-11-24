@@ -1,14 +1,16 @@
 <template>
   <div>
     <div class="navegacao">
-      <p><NuxtLink class="navegacao" to="/">Início</NuxtLink> > Blog</p>
+      <p>
+        <NuxtLink class="navegacao" to="/">Início</NuxtLink> ><em> Blog</em>
+      </p>
     </div>
 
     <div class="card">
       <b-card-group deck>
         <b-card
           title="Assassin's Creed ganha novo filme dessa vez na Netflix"
-          img-src="~/assets/img/254.png"
+          img-src="~/assets/img/254.jpg"
           img-alt="Foto da logo da futura serie da netflix, com o logo do jogo Assassin's creed em vemelho e uma letra N no meio."
           img-top
         >

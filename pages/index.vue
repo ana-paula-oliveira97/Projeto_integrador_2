@@ -34,7 +34,6 @@
       <!-- Slides with image only -->
       <b-carousel-slide
         class="fonte"
-        caption="Promoção de halloween"
         text="venha fantasiado e ganhe 50% de desconto na entrada"
         img-src="~/assets/img/halloween arvore.jpg"
         img-alt="foto de uma arvore assustadora  "

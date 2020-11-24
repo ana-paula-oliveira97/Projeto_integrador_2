@@ -1,7 +1,8 @@
 <template>
   <div>
     <div class="navegacao">
-      <p><NuxtLink class="navegacao" to="/">Início</NuxtLink> > Sobre</p>
+      <p><NuxtLink to="/">Início</NuxtLink> → <em>Sobre</em></p>
+      <p><NuxtLink to="/">Início</NuxtLink> > Sobre</p>
     </div>
     <p class="txt-sobre">
       Com Capacidade de 160 Lugares o Cinemec é um ótimo lugar para passar um

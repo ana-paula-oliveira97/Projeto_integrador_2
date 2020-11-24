@@ -137,6 +137,10 @@ body {
   color: red;
 }
 
+.fonte {
+  font-size: 25px;
+}
+
 .logo-inicio {
   text-decoration: none;
   color: white;
@@ -147,8 +151,11 @@ body {
 }
 
 .navegacao p {
+  padding: 5px;
   margin: 6px;
-  font-size: 15px;
+  font-size: 18px;
+  background-color: #ebe9e9;
+  border-radius: 4px;
 }
 
 .noticia h1 {
@@ -647,5 +654,8 @@ body {
     width: 300px;
     margin: 0 auto;
     padding: 1%;
+  }
+  .fonte {
+    font-size: 15px;
   }
 }
