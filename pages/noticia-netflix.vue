@@ -4,7 +4,7 @@
       <p>
         <NuxtLink class="navegacao" to="/">Início</NuxtLink> >
         <NuxtLink class="navegacao" to="/blog">Blog </NuxtLink> > Assassin's
-        Creed ganha novo filme dessa vez na Netflix
+        Creed ganha novo série dessa vez na Netflix
       </p>
     </div>
     <h1>
@@ -38,25 +38,14 @@
         src="https://platform.twitter.com/widgets.js"
         charset="utf-8"
       ></script>
-    </div>
-    <p>
-      Ainda não temos notícias se a produtora de conteúdo fara a cronologia de
-      todos os jogos da franquia ou apenas um em especifico, porem os jogos
-      possuem 3 jogos que se mantem como o mesmo "personagem" principal sendo
-      ele <strong> Ezio auditore</strong> da Firenze, estando presente nos jogos
-      Assassin’s Creed II, Assassin’s Creed: Brotherhood e Assassin’s Creed:
-      Revelations tendo sua última aparição no curta Assassin's Creed Embers
-      confira a baixo.
-    </p>
-    <div class="trailer">
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/Qajqzfr6oTo?start=296"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
+      <p>
+        Ainda não temos notícias se a produtora de conteúdo fara a cronologia de
+        todos os jogos da franquia ou apenas um em especifico, porem os jogos
+        possuem 3 jogos que se mantem como o mesmo "personagem" principal sendo
+        ele <strong> Ezio auditore</strong> da Firenze, estando presente nos
+        jogos Assassin’s Creed II, Assassin’s Creed: Brotherhood e Assassin’s
+        Creed: Revelations.
+      </p>
     </div>
   </div>
 </template>
