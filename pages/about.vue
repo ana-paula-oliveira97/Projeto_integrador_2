@@ -1,7 +1,6 @@
 <template>
   <div>
     <div class="navegacao">
-      <p><NuxtLink to="/">Início</NuxtLink> → <em>Sobre</em></p>
       <p><NuxtLink to="/">Início</NuxtLink> > Sobre</p>
     </div>
     <p class="txt-sobre">
@@ -38,3 +37,20 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Pagina sobre o Cinemac, aqui encontramos algumas informações sobre o Cinema de Taquaritinga,incluindo o map",
+        },
+      ],
+    };
+  },
+};
+</script>

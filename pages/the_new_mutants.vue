@@ -55,3 +55,21 @@
     </div>
   </div>
 </template>
+
+
+<script>
+export default {
+  head() {
+    return {
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Filme: os novos mutantes,sinopse e thriller oficial do filme, juntamente com alguns atores como Maisie Williams, Anya Taylor-Joy e Charlie Heaton. ",
+        },
+      ],
+    };
+  },
+};
+</script>

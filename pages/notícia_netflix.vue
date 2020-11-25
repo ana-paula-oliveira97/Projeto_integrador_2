@@ -49,3 +49,20 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Noticia sobre a saida de A princesa e a plebeia na netflix, contanto com thriller oficial do filme.",
+        },
+      ],
+    };
+  },
+};
+</script>

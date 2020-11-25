@@ -1,11 +1,7 @@
 <template>
   <div class="filme">
     <div class="navegacao">
-      <p>
-        <NuxtLink class="navegacao" to="/">Início</NuxtLink> >
-        <NuxtLink class="navegacao" to="/poster">Filmes em cartaz</NuxtLink> >
-        Escolhida
-      </p>
+      <p><NuxtLink class="navegacao" to="/">Início</NuxtLink> > Escolhida</p>
     </div>
     <img
       class="capa"
@@ -52,3 +48,21 @@
     </div>
   </div>
 </template>
+
+
+<script>
+export default {
+  head() {
+    return {
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Filme: escolhida,sinopse e thriller oficial do filme, juntamente com alguns atores como Janelle Monáe, Marque Richardso e Jack Huston. ",
+        },
+      ],
+    };
+  },
+};
+</script>

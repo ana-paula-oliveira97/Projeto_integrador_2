@@ -1,9 +1,7 @@
 <template>
   <div>
     <div class="navegacao">
-      <p>
-        <NuxtLink class="navegacao" to="/">Início</NuxtLink> ><em> Blog</em>
-      </p>
+      <p><NuxtLink class="navegacao" to="/">Início</NuxtLink> > Blog</p>
     </div>
 
     <div class="card">
@@ -43,3 +41,22 @@
   </div>
 </template>
 
+
+
+
+<script>
+export default {
+  head() {
+    return {
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Algumas noticia do cinema, como filme,séries e do mundo de hollywood",
+        },
+      ],
+    };
+  },
+};
+</script>

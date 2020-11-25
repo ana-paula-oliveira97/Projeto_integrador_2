@@ -60,3 +60,19 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: "Noticia sobre a saida de assassins creed na netflix.",
+        },
+      ],
+    };
+  },
+};
+</script>

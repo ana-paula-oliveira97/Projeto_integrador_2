@@ -55,3 +55,20 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Filme: freaky,sinopse e thriller oficial do filme, juntamente com alguns atores como Vince Vaughn,Celeste O’Connor e Misha Osherovich. ",
+        },
+      ],
+    };
+  },
+};
+</script>

@@ -2,9 +2,7 @@
   <div class="filme">
     <div class="navegacao">
       <p>
-        <NuxtLink class="navegacao" to="/">Início</NuxtLink> >
-        <NuxtLink class="navegacao" to="/poster">Filmes em cartaz</NuxtLink> >
-        Morte Súbita 2
+        <NuxtLink class="navegacao" to="/">Início</NuxtLink> > Morte Súbita 2
       </p>
     </div>
     <img
@@ -56,3 +54,20 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Filme: escolhida,sinopse e thriller oficial do filme, juntamente com alguns atores como Michael Jai White, Michael Eklund e Gillian White. ",
+        },
+      ],
+    };
+  },
+};
+</script>

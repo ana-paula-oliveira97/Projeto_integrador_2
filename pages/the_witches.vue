@@ -55,3 +55,20 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Filme: a convenção das bruxas,sinopse e thriller do filme, juntamente  com alguns atores como Anne Hathaway, Octavia Spencer e Jahzir Bruno",
+        },
+      ],
+    };
+  },
+};
+</script>

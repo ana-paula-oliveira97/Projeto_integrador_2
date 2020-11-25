@@ -2,9 +2,8 @@
   <div class="filme">
     <div class="navegacao">
       <p>
-        <NuxtLink class="navegacao" to="/">Início</NuxtLink> >
-        <NuxtLink class="navegacao" to="/poster">Filmes em cartaz</NuxtLink> >
-        Sangue de Pelicano
+        <NuxtLink class="navegacao" to="/">Início</NuxtLink> > Sangue de
+        Pelicano
       </p>
     </div>
     <img
@@ -56,3 +55,21 @@
     </div>
   </div>
 </template>
+
+
+<script>
+export default {
+  head() {
+    return {
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Filme: Sangue de Pelicano,sinopse e thriller oficial do filme, juntamente com alguns atores como Nina Hoss,Yana Marinova e Dimitar Banenkin. ",
+        },
+      ],
+    };
+  },
+};
+</script>

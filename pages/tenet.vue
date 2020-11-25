@@ -63,3 +63,20 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Filme: tenet,sinopse e thriller oficial do filme, juntamente  com alguns atores como John David Washington, Robert Pattinson e Elizabeth Debicki ",
+        },
+      ],
+    };
+  },
+};
+</script>

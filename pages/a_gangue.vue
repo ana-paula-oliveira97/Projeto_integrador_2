@@ -2,9 +2,8 @@
   <div class="filme">
     <div class="navegacao">
       <p>
-        <NuxtLink class="navegacao" to="/">Início</NuxtLink> →
-        <NuxtLink class="navegacao" to="/poster">Filmes em cartaz</NuxtLink> → A
-        Gangue: Uma Noite de Sangue
+        <NuxtLink class="navegacao" to="/">Início</NuxtLink> > A Gangue: Uma
+        Noite de Sangue
       </p>
     </div>
 
@@ -53,7 +52,7 @@
       </div>
       <div>
         <img class="fotos" src="~/assets/img/alexandra adornetto.jpg" alt="" />
-        <p>alexandra adornetto - Sam</p>
+        <p>Alexandra adornetto - Sam</p>
       </div>
       <div>
         <img class="fotos" src="~/assets/img/Mick preston.jpg" alt="" />
@@ -62,3 +61,20 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Filme:A Gangue: Uma Noite de Sangue,sinopse e thriller oficial do filme, juntamente com alguns atores como Leigh smith, Alexandra adornetto e Mick preston. ",
+        },
+      ],
+    };
+  },
+};
+</script>
