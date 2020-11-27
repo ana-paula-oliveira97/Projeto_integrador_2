@@ -1,7 +1,8 @@
 <template>
   <div class="rodape">
     <p>Nossas redes Sociais:</p>
-    <NuxtLink to="/">
+
+    <a href="https://www.facebook.com/cinemec.taquaritinga.oficial/l">
       <svg
         class="facebook"
         version="1.1"
@@ -36,8 +37,7 @@
           />
         </g>
       </svg>
-    </NuxtLink>
-
+    </a>
     <p>Endereço: R. da República, 999-897, Taquaritinga - SP, 15900-000</p>
     <p class="fim-do-rodape">©Todos os direitos reservados.</p>
   </div>
